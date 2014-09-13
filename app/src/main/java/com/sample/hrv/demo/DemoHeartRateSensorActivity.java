@@ -26,7 +26,7 @@ import com.sample.hrv.sensor.BleHeartRateSensor;
 import com.sample.hrv.sensor.BleSensor;
 
 /**
- * Created by olli on 3/28/14.
+ * UPDATE SCREEN WITH DATA
  */
 public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 	private final static String TAG = DemoHeartRateSensorActivity.class
@@ -34,7 +34,6 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 
 	private TextView viewText;
 	private PolygonRenderer renderer;
-
 	private GLSurfaceView view;
 	
 	@Override
@@ -55,18 +54,24 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 	}
 
 	@Override
-	public void onDataRecieved(BleSensor<?> sensor, String text) {
+	public void onDataRecieved(BleSensor<?> sensor, String data_as_string) {
+        //don't actually need data_as_string but need for previous declaration
 		if (sensor instanceof BleHeartRateSensor) {
 			final BleHeartRateSensor heartSensor = (BleHeartRateSensor) sensor;
-			float[] values = heartSensor.getData();
-			renderer.setInterval(values);
+			float[] values = heartSensor.getData(); //values = bpm, interval
+
+            String bpm = values[0] +"";
+            System.out.println("\n********BPM: " + values[0]);
+
+			renderer.setInterval(values); //set new data
 			view.requestRender();
 
-			viewText.setText(text);
+            //DATA_AS_STRING is "heart rate=74.0"
+			viewText.setText(bpm);
 
 		}
 	}
-	
+
 	public abstract class AbstractRenderer implements GLSurfaceView.Renderer {
 		
 		public int[] getConfigSpec() {
@@ -126,8 +131,11 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 		private float[] interval = { 0, 0, 0 };
 		private float previousInterval = 0;
 
+        //POPULATE INTERVAL[] WITH NEW DATA
 		public void setInterval(float[] interval) {
+            // IF RECEIVING HEART RATE AND BEAT INTERVAL FROM SENSOR
 			if (this.interval[1] >= 0 && interval[1] > 0) {
+                // PUT DATA IN OLD ARRAY, NEW STUFF IN CURRENT INTERVAL ARRAY
 				this.previousInterval = this.interval[1];
 			}
 			this.interval[0] = interval[0]; // heart rate

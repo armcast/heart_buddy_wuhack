@@ -21,7 +21,7 @@
         android:layout_width="181dp"
         android:layout_height="219dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="45"
+        android:text="77"
         android:id="@+id/heartRate"
         android:layout_gravity="right|top"
         android:textIsSelectable="false"

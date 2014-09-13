@@ -26,7 +26,6 @@
     <string name="disconnected">Disconnected</string>
     <string name="title_devices">Find your heart buddy</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
-
     <string name="action_demo">Demo</string>
 
     <string name="title_demo_accelerometer">Accelerometer Demo</string>
