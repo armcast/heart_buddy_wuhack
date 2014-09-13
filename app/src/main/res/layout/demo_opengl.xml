@@ -4,16 +4,28 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <com.sample.hrv.demo.DemoGLSurfaceView
-            android:id="@+id/gl"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
     <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textAppearance="?android:textAppearanceMedium" />
+
+    <com.sample.hrv.demo.DemoGLSurfaceView
+            android:id="@+id/gl"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="219dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="45"
+        android:id="@+id/heartRate"
+        android:layout_gravity="right|top"
+        android:textIsSelectable="false"
+        android:textSize="29dp" />
 
 
 </FrameLayout>

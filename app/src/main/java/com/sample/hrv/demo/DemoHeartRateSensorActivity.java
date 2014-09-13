@@ -45,7 +45,7 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 
 		getActionBar().setTitle(R.string.title_demo_heartrate);
 
-		viewText = (TextView) findViewById(R.id.text);
+		viewText = (TextView) findViewById(R.id.heartRate);
 
 		renderer = new PolygonRenderer(this);
 		view.setRenderer(renderer);
@@ -63,6 +63,7 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 			view.requestRender();
 
 			viewText.setText(text);
+
 		}
 	}
 	

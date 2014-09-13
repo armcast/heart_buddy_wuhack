@@ -70,7 +70,7 @@
                 </string>
                 <string name="label_services" >Services
                 </string>
-                <string name="title_demo_heartrate" >Heart rate variability Demo
+                <string name="title_demo_heartrate" >You Live Stats
                 </string>
                 <string name="no_data" >No data
                 </string>
@@ -90,7 +90,7 @@
                 </string>
                 <string name="label_heartrate" >Heart rate:
                 </string>
-                <string name="title_devices" >Bluetooth LE Device Scan
+                <string name="title_devices" >Find your heart buddy
                 </string>
                 <string name="label_data" >Data:
                 </string>
