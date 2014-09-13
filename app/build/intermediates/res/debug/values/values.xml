@@ -22,7 +22,7 @@
     <string name="no_data">No data</string>
     <string name="title_demo_accelerometer">Accelerometer Demo</string>
     <string name="title_demo_gyroscope">Gyroscope Demo</string>
-    <string name="title_demo_heartrate">You Live Stats</string>
+    <string name="title_demo_heartrate">Your Live Stats</string>
     <string name="title_devices">Find your heart buddy</string>
     <string name="unknown_characteristic">Unknown characteristic</string>
     <string name="unknown_device">Unknown device</string>

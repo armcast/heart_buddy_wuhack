@@ -18,14 +18,14 @@
         android:layout_gravity="center_horizontal|bottom" />
 
     <TextView
-        android:layout_width="181dp"
+        android:layout_width="wrap_content"
         android:layout_height="219dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="77"
+        android:text="bpm"
         android:id="@+id/heartRate"
         android:layout_gravity="right|top"
         android:textIsSelectable="false"
-        android:textSize="29dp" />
+        android:textSize="120dp" />
 
 
 </FrameLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/demo_opengl.xml -->
