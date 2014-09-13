@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/assets" />
+        <source path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/armcast/AndroidstudioProjects/HRM/app/src/debug/assets" />
+        <source path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/debug/assets" />
     </dataSet>
 
 </merger>

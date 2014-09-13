@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_demo">Demo</string>
-    <string name="app_name">BLE HRV demo</string>
+    <string name="app_name">Heart Buddy</string>
     <string name="ble_not_supported">Bluetooth LE is not supported</string>
     <string name="connected">Connected</string>
     <string name="disconnected">Disconnected</string>

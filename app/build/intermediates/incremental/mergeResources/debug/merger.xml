@@ -2,69 +2,69 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res" >
+        <source path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res" >
             <file
                 name="ic_launcher"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="actionbar_indeterminate_progress"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/actionbar_indeterminate_progress.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/actionbar_indeterminate_progress.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="demo_opengl"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/demo_opengl.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/demo_opengl.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="gatt_services_characteristics"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/gatt_services_characteristics.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/gatt_services_characteristics.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="listitem_characteristic"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/listitem_characteristic.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/listitem_characteristic.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="listitem_device"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/listitem_device.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/listitem_device.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="listitem_service"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/listitem_service.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/listitem_service.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="gatt_scan"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/menu/gatt_scan.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/menu/gatt_scan.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="gatt_services"
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/menu/gatt_services.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/menu/gatt_services.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/values/strings.xml"
+                path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="ble_not_supported" >Bluetooth LE is not supported
                 </string>
@@ -94,19 +94,19 @@
                 </string>
                 <string name="label_data" >Data:
                 </string>
-                <string name="disconnected" >Disconnected
-                </string>
                 <string name="label_state" >State:
+                </string>
+                <string name="disconnected" >Disconnected
                 </string>
                 <string name="menu_disconnect" >Disconnect
                 </string>
                 <string name="unknown_device" >Unknown device
                 </string>
-                <string name="app_name" >BLE HRV demo
-                </string>
-                <string name="error_bluetooth_not_supported" >Bluetooth not supported.
+                <string name="app_name" >Heart Buddy
                 </string>
                 <string name="menu_scan" >Scan
+                </string>
+                <string name="error_bluetooth_not_supported" >Bluetooth not supported.
                 </string>
                 <string name="menu_stop" >Stop
                 </string>
@@ -114,11 +114,11 @@
                 </string>
             </file>
         </source>
-        <source path="/Users/armcast/AndroidstudioProjects/HRM/app/build/generated/res/rs/debug" />
-        <source path="/Users/armcast/AndroidstudioProjects/HRM/app/build/generated/res/generated/debug" />
+        <source path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/build/generated/res/rs/debug" />
+        <source path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/armcast/AndroidstudioProjects/HRM/app/src/debug/res" />
+        <source path="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/debug/res" />
     </dataSet>
 
 </merger>

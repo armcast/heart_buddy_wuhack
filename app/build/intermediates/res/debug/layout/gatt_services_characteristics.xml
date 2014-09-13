@@ -125,4 +125,4 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:groupIndicator="@null"/> 
-</LinearLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/gatt_services_characteristics.xml -->
+</LinearLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/gatt_services_characteristics.xml -->

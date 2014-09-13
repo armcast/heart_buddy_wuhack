@@ -30,4 +30,4 @@
             android:layout_toLeftOf="@id/modes"
             android:layout_below="@+id/name" />
 
-</RelativeLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/HRM/app/src/main/res/layout/listitem_service.xml -->
+</RelativeLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/listitem_service.xml -->
