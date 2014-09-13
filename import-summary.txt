@@ -1,0 +1,189 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* BLE-Heart-rate-variability-demo/
+* BLE-Heart-rate-variability-demo/.DS_Store
+* BLE-Heart-rate-variability-demo/.git/
+* BLE-Heart-rate-variability-demo/.git/FETCH_HEAD
+* BLE-Heart-rate-variability-demo/.git/HEAD
+* BLE-Heart-rate-variability-demo/.git/config
+* BLE-Heart-rate-variability-demo/.git/index
+* BLE-Heart-rate-variability-demo/.git/logs/
+* BLE-Heart-rate-variability-demo/.git/logs/HEAD
+* BLE-Heart-rate-variability-demo/.git/logs/refs/
+* BLE-Heart-rate-variability-demo/.git/logs/refs/heads/
+* BLE-Heart-rate-variability-demo/.git/logs/refs/heads/master
+* BLE-Heart-rate-variability-demo/.git/logs/refs/remotes/
+* BLE-Heart-rate-variability-demo/.git/logs/refs/remotes/origin/
+* BLE-Heart-rate-variability-demo/.git/logs/refs/remotes/origin/HEAD
+* BLE-Heart-rate-variability-demo/.git/objects/
+* BLE-Heart-rate-variability-demo/.git/objects/03/
+* BLE-Heart-rate-variability-demo/.git/objects/03/c10dd35f9d09e128569e72c621d69716082918
+* BLE-Heart-rate-variability-demo/.git/objects/0b/
+* BLE-Heart-rate-variability-demo/.git/objects/0b/3d40fd439602367582d5ed508edf7c452bb3bf
+* BLE-Heart-rate-variability-demo/.git/objects/11/
+* BLE-Heart-rate-variability-demo/.git/objects/11/a67777aa853bf88fbc2db02f038cbc3dbcaf13
+* BLE-Heart-rate-variability-demo/.git/objects/12/
+* BLE-Heart-rate-variability-demo/.git/objects/12/ad2f8425cf717c18c6a7bfdaa441b51e8b83b0
+* BLE-Heart-rate-variability-demo/.git/objects/20/
+* BLE-Heart-rate-variability-demo/.git/objects/20/ee124bdfd0e481835238a44167261a11b5575b
+* BLE-Heart-rate-variability-demo/.git/objects/21/
+* BLE-Heart-rate-variability-demo/.git/objects/21/91bddfbe02a9a86db62a0dd2722ebe3f746c8d
+* BLE-Heart-rate-variability-demo/.git/objects/24/
+* BLE-Heart-rate-variability-demo/.git/objects/24/56a1c852802819777c91ce86613c0d63132060
+* BLE-Heart-rate-variability-demo/.git/objects/24/67bb44aedb650e2dcdaaf97ce8ca5284b82e87
+* BLE-Heart-rate-variability-demo/.git/objects/26/
+* BLE-Heart-rate-variability-demo/.git/objects/26/70eb3b41d2ca15cc6c2b400b1a32f6f78f543d
+* BLE-Heart-rate-variability-demo/.git/objects/27/
+* BLE-Heart-rate-variability-demo/.git/objects/27/7a6ce4aa068c28742c9ed0ce52c6a065ebf7e2
+* BLE-Heart-rate-variability-demo/.git/objects/2c/
+* BLE-Heart-rate-variability-demo/.git/objects/2c/e5a20ce67f48542b3ebe741d3ea8e33060c92f
+* BLE-Heart-rate-variability-demo/.git/objects/2f/
+* BLE-Heart-rate-variability-demo/.git/objects/2f/6ca1c0853b8e4e4b8da1d22400801826982855
+* BLE-Heart-rate-variability-demo/.git/objects/30/
+* BLE-Heart-rate-variability-demo/.git/objects/30/cb814f2a431f56cdadc87f3742625a4d7f2527
+* BLE-Heart-rate-variability-demo/.git/objects/34/
+* BLE-Heart-rate-variability-demo/.git/objects/34/10b013864d8ad66766c6191e411c04fc0ea2a9
+* BLE-Heart-rate-variability-demo/.git/objects/34/329449bc2d7b3751f3b6ee01ac49b625706cc4
+* BLE-Heart-rate-variability-demo/.git/objects/39/
+* BLE-Heart-rate-variability-demo/.git/objects/39/dd66aa4bb1a64b0050504a51cfe44ba1ea1e80
+* BLE-Heart-rate-variability-demo/.git/objects/3a/
+* BLE-Heart-rate-variability-demo/.git/objects/3a/39c48fca2677aec5fd5a77f9106dd270e04813
+* BLE-Heart-rate-variability-demo/.git/objects/3b/
+* BLE-Heart-rate-variability-demo/.git/objects/3b/b962a9a59238baf9df26132b2c285f780e4426
+* BLE-Heart-rate-variability-demo/.git/objects/40/
+* BLE-Heart-rate-variability-demo/.git/objects/40/3d6d84ecfb9db2af1837f4afcc26ae499df392
+* BLE-Heart-rate-variability-demo/.git/objects/46/
+* BLE-Heart-rate-variability-demo/.git/objects/46/4d32ff79e15feb67ac90985da65ae5ed208315
+* BLE-Heart-rate-variability-demo/.git/objects/4e/
+* BLE-Heart-rate-variability-demo/.git/objects/4e/69694271fd6f1c5aef97cfc2b12f3f809797b3
+* BLE-Heart-rate-variability-demo/.git/objects/50/
+* BLE-Heart-rate-variability-demo/.git/objects/50/5ef3c27c84bde2ad646f9cd0efc77c3be3b118
+* BLE-Heart-rate-variability-demo/.git/objects/51/
+* BLE-Heart-rate-variability-demo/.git/objects/51/aa63abbba5d2763b659c5b104525fd833c95e4
+* BLE-Heart-rate-variability-demo/.git/objects/54/
+* BLE-Heart-rate-variability-demo/.git/objects/54/31420ebbd0a450b6f5da817f7c52076e708357
+* BLE-Heart-rate-variability-demo/.git/objects/55/
+* BLE-Heart-rate-variability-demo/.git/objects/55/29d7e8ba121dd92dce159127da45a3258277c3
+* BLE-Heart-rate-variability-demo/.git/objects/58/
+* BLE-Heart-rate-variability-demo/.git/objects/58/03730c7e15913c1130a563e5147fc85b7e4684
+* BLE-Heart-rate-variability-demo/.git/objects/58/1154f11c4d01719f6117a73442269efb5abf10
+* BLE-Heart-rate-variability-demo/.git/objects/5d/
+* BLE-Heart-rate-variability-demo/.git/objects/5d/65136abd96ef0532dc949c193c3d85497c3870
+* BLE-Heart-rate-variability-demo/.git/objects/63/
+* BLE-Heart-rate-variability-demo/.git/objects/63/c400593dcba4ad2d71308c241941c188821ade
+* BLE-Heart-rate-variability-demo/.git/objects/66/
+* BLE-Heart-rate-variability-demo/.git/objects/66/27d3fea265790909b192b85a2df4f1ac661aba
+* BLE-Heart-rate-variability-demo/.git/objects/77/
+* BLE-Heart-rate-variability-demo/.git/objects/77/eca52b9eec68e685c0cebc7a17c7fff0c1ff3e
+* BLE-Heart-rate-variability-demo/.git/objects/80/
+* BLE-Heart-rate-variability-demo/.git/objects/80/836c8f4cf403b587fd60a62e96c10eaa1b84bb
+* BLE-Heart-rate-variability-demo/.git/objects/83/
+* BLE-Heart-rate-variability-demo/.git/objects/83/89c07a56fccdfa12f1997feab49f7f27ed50f5
+* BLE-Heart-rate-variability-demo/.git/objects/87/
+* BLE-Heart-rate-variability-demo/.git/objects/87/1a06ef522d307ae6b6a3e41bbc63f5fcb3ceed
+* BLE-Heart-rate-variability-demo/.git/objects/8b/
+* BLE-Heart-rate-variability-demo/.git/objects/8b/66f0a9b93e41302fdfbf5c1af2e780421d4059
+* BLE-Heart-rate-variability-demo/.git/objects/8c/
+* BLE-Heart-rate-variability-demo/.git/objects/8c/28dab423a4b15a5934d1795674999e63a9cb3c
+* BLE-Heart-rate-variability-demo/.git/objects/8d/
+* BLE-Heart-rate-variability-demo/.git/objects/8d/437a304a37c6ddb0c85655c53661c6bf0e8b6a
+* BLE-Heart-rate-variability-demo/.git/objects/8e/
+* BLE-Heart-rate-variability-demo/.git/objects/8e/1f856ab579654b5a363b209a0a7e05cf04301d
+* BLE-Heart-rate-variability-demo/.git/objects/90/
+* BLE-Heart-rate-variability-demo/.git/objects/90/f50180523640e2b958916eb5e6625d8fa4b2ce
+* BLE-Heart-rate-variability-demo/.git/objects/94/
+* BLE-Heart-rate-variability-demo/.git/objects/94/362cad5be7d2943e99e01b9bf7485e950c446d
+* BLE-Heart-rate-variability-demo/.git/objects/9b/
+* BLE-Heart-rate-variability-demo/.git/objects/9b/7124a86610f55bbd6459abff1fb676fc2c9f33
+* BLE-Heart-rate-variability-demo/.git/objects/9d/
+* BLE-Heart-rate-variability-demo/.git/objects/9d/b87e2341b5e0546d12accfd5b17252ef213999
+* BLE-Heart-rate-variability-demo/.git/objects/9d/c0e281e3d12c1d8aca32ab9f28c9f074885830
+* BLE-Heart-rate-variability-demo/.git/objects/9f/
+* BLE-Heart-rate-variability-demo/.git/objects/9f/9dc591692d290b30cdc472efec8038ff017d41
+* BLE-Heart-rate-variability-demo/.git/objects/a1/
+* BLE-Heart-rate-variability-demo/.git/objects/a1/ac26774fe9608a88e0dc4e2a87ce5517e110f6
+* BLE-Heart-rate-variability-demo/.git/objects/b0/
+* BLE-Heart-rate-variability-demo/.git/objects/b0/80d2ddc88fb0b4d7c93cd4d361c775525b4dbb
+* BLE-Heart-rate-variability-demo/.git/objects/b2/
+* BLE-Heart-rate-variability-demo/.git/objects/b2/b38ca4eebb638dd6d9012a69a8be6d894f4629
+* BLE-Heart-rate-variability-demo/.git/objects/b2/df12bfe8fdf14521eead003fcbcbe1e035c1d4
+* BLE-Heart-rate-variability-demo/.git/objects/ba/
+* BLE-Heart-rate-variability-demo/.git/objects/ba/30f0a57287796f2c61cd11d251a11ef26fcbf1
+* BLE-Heart-rate-variability-demo/.git/objects/ce/
+* BLE-Heart-rate-variability-demo/.git/objects/ce/39f2d0a061116c8dfd41e74b2bfd54ff4d554b
+* BLE-Heart-rate-variability-demo/.git/objects/cf/
+* BLE-Heart-rate-variability-demo/.git/objects/cf/d64f7e3a5fd4e972992a6929a4ce87e25dba1f
+* BLE-Heart-rate-variability-demo/.git/objects/d2/
+* BLE-Heart-rate-variability-demo/.git/objects/d2/73f0c4840b5a2f0f46fea05623bb73ce630131
+* BLE-Heart-rate-variability-demo/.git/objects/d8/
+* BLE-Heart-rate-variability-demo/.git/objects/d8/2203ed71039e72f1eb3c242797597e67bc00cd
+* BLE-Heart-rate-variability-demo/.git/objects/dc/
+* BLE-Heart-rate-variability-demo/.git/objects/dc/8da983234a5329eecfe41e4e0c7359398eb392
+* BLE-Heart-rate-variability-demo/.git/objects/e0/
+* BLE-Heart-rate-variability-demo/.git/objects/e0/99b46be7adec6a76f61c74b7975e3d81d6f03c
+* BLE-Heart-rate-variability-demo/.git/objects/e4/
+* BLE-Heart-rate-variability-demo/.git/objects/e4/2d6cb31b211c099453fd8f55640e0bc0a405d6
+* BLE-Heart-rate-variability-demo/.git/objects/e4/bbc6090847ec1bba87b076472faa11917f4c24
+* BLE-Heart-rate-variability-demo/.git/objects/e6/
+* BLE-Heart-rate-variability-demo/.git/objects/e6/6ea57e405fc1586217c249ce0b6a12f31fbe81
+* BLE-Heart-rate-variability-demo/.git/objects/e7/
+* BLE-Heart-rate-variability-demo/.git/objects/e7/75a3d54dc266e258db0ca817c3231b4b358987
+* BLE-Heart-rate-variability-demo/.git/objects/e8/
+* BLE-Heart-rate-variability-demo/.git/objects/e8/1e5abe67f1be045b92057a75190328561cd2f9
+* BLE-Heart-rate-variability-demo/.git/objects/ea/
+* BLE-Heart-rate-variability-demo/.git/objects/ea/698ecac9da3602c298e58ef50284ddb8d30a03
+* BLE-Heart-rate-variability-demo/.git/objects/eb/
+* BLE-Heart-rate-variability-demo/.git/objects/eb/0fe033a72e65daa985590bfcaefdc0b83c0208
+* BLE-Heart-rate-variability-demo/.git/objects/f0/
+* BLE-Heart-rate-variability-demo/.git/objects/f0/272d0dd3e04ef441800257b5af93a18a3d6c05
+* BLE-Heart-rate-variability-demo/.git/objects/f1/
+* BLE-Heart-rate-variability-demo/.git/objects/f1/5a75e7e3914829baae722da7988025355f63e1
+* BLE-Heart-rate-variability-demo/.git/objects/f1/6d93ac37f25bdb30c867ebdaaabbb61297a8fe
+* BLE-Heart-rate-variability-demo/.git/objects/f4/
+* BLE-Heart-rate-variability-demo/.git/objects/f4/77c9aacf2a95af25e51945bf4515b77f08fc2f
+* BLE-Heart-rate-variability-demo/.git/objects/f8/
+* BLE-Heart-rate-variability-demo/.git/objects/f8/c59ec587080eed5ca7b9dc1c2263c6d1980778
+* BLE-Heart-rate-variability-demo/.git/packed-refs
+* BLE-Heart-rate-variability-demo/.git/refs/
+* BLE-Heart-rate-variability-demo/.git/refs/heads/
+* BLE-Heart-rate-variability-demo/.git/refs/heads/master
+* BLE-Heart-rate-variability-demo/.git/refs/remotes/
+* BLE-Heart-rate-variability-demo/.git/refs/remotes/origin/
+* BLE-Heart-rate-variability-demo/.git/refs/remotes/origin/HEAD
+* BLE-Heart-rate-variability-demo/.gitignore
+* BLE-Heart-rate-variability-demo/.settings/
+* BLE-Heart-rate-variability-demo/.settings/org.eclipse.jdt.core.prefs
+* LICENSE
+* README.md
+* ic_launcher-web.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
