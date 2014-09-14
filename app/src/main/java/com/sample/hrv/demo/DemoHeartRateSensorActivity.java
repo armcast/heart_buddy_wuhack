@@ -1,5 +1,6 @@
 package com.sample.hrv.demo;
 
+import android.content.DialogInterface;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
 import android.os.Bundle;
@@ -20,11 +21,14 @@ import android.opengl.GLSurfaceView.Renderer;
 
 import android.content.Context;
 import android.os.SystemClock;
+import android.app.AlertDialog;
 
 
 import com.sample.hrv.R;
 import com.sample.hrv.sensor.BleHeartRateSensor;
 import com.sample.hrv.sensor.BleSensor;
+
+
 
 /**
  * UPDATE SCREEN WITH DATA
@@ -37,6 +41,7 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
     private TextView statusBox;
 	private PolygonRenderer renderer;
 	private GLSurfaceView view;
+    private boolean seen=false;
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -54,6 +59,9 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 		//view.setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);
 		// Render when hear rate data is updated
 		view.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+
+
+
 	}
 
 	@Override
@@ -69,10 +77,27 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
             int intBpm = 0;
             intBpm = (int) Double.parseDouble(bpm);
             //if(Integer.parseInt(bpm))
-
                 if(intBpm > 85){
                     //send notification
+
                     statusBox.setVisibility(view.VISIBLE);
+
+                    if(!seen){
+                        new AlertDialog.Builder(this)
+                                .setTitle("WARNING")
+                                .setMessage("Your heart rate is elevated!")
+                                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        // continue with delete
+                                    }
+                                })
+
+                                .setIcon(android.R.drawable.ic_dialog_alert)
+                                .show();
+                        seen = true;
+                    }
+
+
                 }
 
                 else{

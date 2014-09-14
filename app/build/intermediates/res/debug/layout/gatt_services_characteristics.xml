@@ -156,13 +156,15 @@
         android:paddingLeft="0dp" />
 
     <TextView
-        android:layout_width="303dp"
+        android:layout_width="321dp"
         android:layout_height="match_parent"
-        android:text="Heart Buddy will monitor your heart rate to look for abnormalities that could indicate emerg is detected, your emergency contacts will be notified."
+        android:text="Press play to monitor your heart for abnormalities. Your contacts will be notified in case of an emergency."
         android:id="@+id/descr"
         android:layout_gravity="center_horizontal"
         android:textSize="25dp"
-        android:gravity="center"
-        android:textColor="#ffffff" />
+        android:gravity="center|left"
+        android:textColor="#ffffff"
+        android:textAlignment="textStart"
+        android:paddingBottom="50dp" />
 
 </LinearLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/gatt_services_characteristics.xml -->
