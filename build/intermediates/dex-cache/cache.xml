@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/build/intermediates/pre-dexed/debug/iamsdk-bff0bb2032d95c4ac2b99ebeec8b1f2f0c7fa740.jar"
+        jar="/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/libs/iamsdk.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="404fa972adb44bd225a48069286d981bbd7b5a90"/>
+
+</pre-dex-items>
