@@ -70,14 +70,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceServicesActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DeviceServicesActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sample/hrv/DeviceServicesActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6505295" vertical-offset="3875" max-vertical-offset="7308">
-              <caret line="262" column="45" selection-start-line="262" selection-start-column="45" selection-end-line="262" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4106" max-vertical-offset="7497">
+              <caret line="273" column="17" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
               <folding>
-                <element signature="e#10467#11005#0" expanded="true" />
-                <element signature="e#10994#10995#0" expanded="true" />
+                <element signature="e#10510#11332#0" expanded="true" />
+                <element signature="e#11321#11322#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_opengl.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo_opengl.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/demo_opengl.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
@@ -1242,9 +1242,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/sample/hrv/sensor/BackgroundBle.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sample/hrv/demo/DemoHeartRateSensorActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/demo_opengl.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/gatt_services_characteristics.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sample/hrv/DeviceServicesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/demo_opengl.xml" />
       </list>
     </option>
   </component>
@@ -2081,8 +2081,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8127">
           <caret line="381" column="1" selection-start-line="381" selection-start-column="1" selection-end-line="381" selection-end-column="1" />
           <folding>
-            <element signature="e#10467#11005#0" expanded="true" />
-            <element signature="e#10994#10995#0" expanded="true" />
+            <element signature="e#10510#11332#0" expanded="true" />
+            <element signature="e#11321#11322#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2149,8 +2149,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8148">
           <caret line="251" column="11" selection-start-line="251" selection-start-column="11" selection-end-line="251" selection-end-column="11" />
           <folding>
-            <element signature="e#10467#11005#0" expanded="true" />
-            <element signature="e#10994#10995#0" expanded="true" />
+            <element signature="e#10510#11332#0" expanded="true" />
+            <element signature="e#11321#11322#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2490,17 +2490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/demo_opengl.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1197">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/gatt_services_characteristics.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -2529,12 +2518,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sample/hrv/DeviceServicesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6505295" vertical-offset="3875" max-vertical-offset="7308">
-          <caret line="262" column="45" selection-start-line="262" selection-start-column="45" selection-end-line="262" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4106" max-vertical-offset="7497">
+          <caret line="273" column="17" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
           <folding>
-            <element signature="e#10467#11005#0" expanded="true" />
-            <element signature="e#10994#10995#0" expanded="true" />
+            <element signature="e#10510#11332#0" expanded="true" />
+            <element signature="e#11321#11322#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/demo_opengl.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1197">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

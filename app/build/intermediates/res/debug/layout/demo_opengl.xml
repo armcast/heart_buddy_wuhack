@@ -46,7 +46,9 @@
         android:text="Warning: Your heart levels are elevated. Please consider seeking assistance. Your emergency conctacts will be contacted."
         android:id="@+id/status"
         android:layout_gravity="center"
-        android:visibility="invisible" />
+        android:visibility="invisible"
+        android:textColor="#ff6060"
+        android:textIsSelectable="false" />
 
 
 </FrameLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/demo_opengl.xml -->

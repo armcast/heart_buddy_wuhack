@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -258,12 +259,21 @@ public class DeviceServicesActivity extends Activity {
             @Override
             public boolean onTouch(View v, MotionEvent event)
             {
-                if (event.getAction() == MotionEvent.ACTION_DOWN)
-                    Log.d("Pressed", "Button pressed");
-                    demoButton.setBackground();
-                else if (event.getAction() == MotionEvent.ACTION_UP)
+                Drawable select = getResources().getDrawable(R.drawable.selected_button);
+                Drawable unselect = getResources().getDrawable(R.drawable.normal_button);
 
+                if (event.getAction() == MotionEvent.ACTION_DOWN){
+                    Log.d("Pressed", "Button pressed");
+                    demoButton.setBackground(select);
+                }
+
+
+                else if (event.getAction() == MotionEvent.ACTION_UP){
                     Log.d("Released", "Button released");
+                    demoButton.setBackground(unselect);
+                }
+
+
                 // TODO Auto-generated method stub
                 return false;
             }
