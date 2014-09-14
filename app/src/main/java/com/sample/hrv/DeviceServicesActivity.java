@@ -30,6 +30,7 @@ import android.os.IBinder;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ExpandableListView;
@@ -248,6 +249,23 @@ public class DeviceServicesActivity extends Activity {
                 final BluetoothGattService service = gattServiceAdapter.getHeartRateService();
                 serviceListener.onDemoClick(service);
                 Log.d(TAG, "set service listener");
+            }
+        });
+
+        demoButton.setOnTouchListener(new View.OnTouchListener()
+        {
+
+            @Override
+            public boolean onTouch(View v, MotionEvent event)
+            {
+                if (event.getAction() == MotionEvent.ACTION_DOWN)
+                    Log.d("Pressed", "Button pressed");
+                    demoButton.setBackground();
+                else if (event.getAction() == MotionEvent.ACTION_UP)
+
+                    Log.d("Released", "Button released");
+                // TODO Auto-generated method stub
+                return false;
             }
         });
 
