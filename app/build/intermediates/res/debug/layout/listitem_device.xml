@@ -22,7 +22,8 @@
         android:paddingRight="10dp"
         android:paddingLeft="10dp"
 
-    android:clickable="false">
+    android:clickable="false"
+    android:background="#ff6d6d">
     <TextView
             android:id="@+id/device_rssi"
             android:layout_width="wrap_content"
