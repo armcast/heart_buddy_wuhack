@@ -70,7 +70,7 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
             intBpm = (int) Double.parseDouble(bpm);
             //if(Integer.parseInt(bpm))
 
-                if(intBpm > 70){
+                if(intBpm > 85){
                     //send notification
                     statusBox.setVisibility(view.VISIBLE);
                 }

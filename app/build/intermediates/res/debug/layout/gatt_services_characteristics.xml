@@ -20,7 +20,8 @@
         android:layout_height="match_parent"
         android:paddingTop="50dp"
         android:background="#ff6d6d"
-        android:id="@+id/loadBpm">
+        android:id="@+id/loadBpm"
+    android:weightSum="1">
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -134,6 +135,17 @@
             android:groupIndicator="@null"
             android:visibility="gone"/>
 
+    <Button
+        android:id="@+id/demo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="visible"
+        android:background="@drawable/normal_button"
+        android:text=" "
+        android:layout_gravity="center_horizontal" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -143,14 +155,14 @@
         android:paddingBottom="0dp"
         android:paddingLeft="0dp" />
 
-    <Button
-        android:id="@+id/demo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start!"
-        android:clickable="false"
-        android:focusable="false"
-        android:visibility="visible"
-        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="303dp"
+        android:layout_height="match_parent"
+        android:text="Heart Buddy will monitor your heart rate to look for abnormalities that could indicate emerg is detected, your emergency contacts will be notified."
+        android:id="@+id/descr"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
 
 </LinearLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/gatt_services_characteristics.xml -->
