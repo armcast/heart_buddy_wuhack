@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
 import android.os.Bundle;
+import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -22,11 +23,19 @@ import android.opengl.GLSurfaceView.Renderer;
 import android.content.Context;
 import android.os.SystemClock;
 import android.app.AlertDialog;
+import android.os.CountDownTimer;
 
 
+import com.att.api.rest.RESTConfig;
 import com.sample.hrv.R;
 import com.sample.hrv.sensor.BleHeartRateSensor;
 import com.sample.hrv.sensor.BleSensor;
+
+import com.att.api.oauth.OAuthService;
+import com.att.api.oauth.OAuthToken;
+import com.att.api.rest.RESTException;
+import com.att.api.immn.service.SendResponse;
+import com.att.api.immn.service.IMMNService;
 
 
 
@@ -61,8 +70,30 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 		view.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
 
 
+        //ATT&T API
+
+
 
 	}
+
+
+
+//    public class MyCount extends CountDownTimer {
+//
+//        public MyCount(long millisInFuture, long countDownInterval) {
+//            super(millisInFuture, countDownInterval);
+//        }
+//
+//        @Override
+//        public void onFinish() {
+//            tv.setText("done!");
+//        }
+//
+//        @Override
+//        public void onTick(long millisUntilFinished) {
+//            tv.setText("Left: " + millisUntilFinished / 1000);
+//        }
+//    }
 
 	@Override
 	public void onDataRecieved(BleSensor<?> sensor, String data_as_string) {
@@ -76,25 +107,42 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
             System.out.println("\nBPM IN DOUBLE FORM: "+ Double.parseDouble(bpm) + "\n");
             int intBpm = 0;
             intBpm = (int) Double.parseDouble(bpm);
+
             //if(Integer.parseInt(bpm))
-                if(intBpm > 85){
+                if(intBpm > 67){
                     //send notification
 
                     statusBox.setVisibility(view.VISIBLE);
 
                     if(!seen){
+                        seen = true;
                         new AlertDialog.Builder(this)
                                 .setTitle("WARNING")
-                                .setMessage("Your heart rate is elevated!")
+                                .setMessage("Your heart rate is elevated! Your contacts will be notified in 10 seconds.")
                                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int which) {
                                         // continue with delete
+                                        String messageToSend = "Your loved one is having heart problems at this location: ";
+                                        String number = "+13142290392";
+                                        SmsManager.getDefault().sendTextMessage(number, null, messageToSend, null,null);
+                                        System.out.println("\n******SMS HAS BEEN SENT********\n");
+
+
+                                    }
+                                })
+
+                                .setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        // continue with process
+                                        seen = false;
                                     }
                                 })
 
                                 .setIcon(android.R.drawable.ic_dialog_alert)
                                 .show();
-                        seen = true;
+
+
+
                     }
 
 
@@ -102,6 +150,7 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 
                 else{
                     statusBox.setVisibility(view.INVISIBLE);
+
                 }
 
 			renderer.setInterval(values); //set new data
