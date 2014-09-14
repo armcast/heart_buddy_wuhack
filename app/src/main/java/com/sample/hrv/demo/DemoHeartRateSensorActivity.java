@@ -4,6 +4,7 @@ import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import java.nio.ByteBuffer;
@@ -33,6 +34,7 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 			.getSimpleName();
 
 	private TextView viewText;
+    private TextView statusBox;
 	private PolygonRenderer renderer;
 	private GLSurfaceView view;
 	
@@ -45,6 +47,7 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 		getActionBar().setTitle(R.string.title_demo_heartrate);
 
 		viewText = (TextView) findViewById(R.id.heartRate);
+        statusBox = (TextView) findViewById(R.id.status);
 
 		renderer = new PolygonRenderer(this);
 		view.setRenderer(renderer);
@@ -63,11 +66,19 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
             String bpm = values[0] +"";
             System.out.println("\n********BPM: " + values[0]);
             System.out.println("\nBPM IN DOUBLE FORM: "+ Double.parseDouble(bpm) + "\n");
-            int intBpm = (int) Double.parseDouble(bpm);
+            int intBpm = 0;
+            intBpm = (int) Double.parseDouble(bpm);
             //if(Integer.parseInt(bpm))
-            if(intBpm > 70){
-                //send notification
-            }
+
+                if(intBpm > 70){
+                    //send notification
+                    statusBox.setVisibility(view.VISIBLE);
+                }
+
+                else{
+                    statusBox.setVisibility(view.INVISIBLE);
+                }
+
 			renderer.setInterval(values); //set new data
 			view.requestRender();
 

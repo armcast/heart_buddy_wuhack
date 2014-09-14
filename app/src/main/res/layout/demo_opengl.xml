@@ -15,7 +15,8 @@
             android:id="@+id/gl"
             android:layout_width="match_parent"
             android:layout_height="263dp"
-        android:layout_gravity="center_horizontal|bottom" />
+        android:layout_gravity="center_horizontal|bottom"
+        android:visibility="gone" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,6 +39,14 @@
         android:textSize="35dp"
         android:paddingTop="130dp"
         android:paddingRight="90dp" />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="74dp"
+        android:text="Warning: Your heart levels are elevated. Please consider seeking assistance. Your emergency conctacts will be contacted."
+        android:id="@+id/status"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
 
 
 </FrameLayout>

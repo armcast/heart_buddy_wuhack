@@ -16,29 +16,30 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int connection_state=0x7f060006;
-        public static final int data_value=0x7f060007;
-        public static final int demo=0x7f06000b;
-        public static final int device_address=0x7f060005;
-        public static final int device_name=0x7f060011;
-        public static final int device_rssi=0x7f060010;
-        public static final int gatt_services_list=0x7f060009;
+        public static final int connection_state=0x7f060007;
+        public static final int data_value=0x7f060008;
+        public static final int demo=0x7f06000c;
+        public static final int device_address=0x7f060006;
+        public static final int device_name=0x7f060012;
+        public static final int device_rssi=0x7f060011;
+        public static final int gatt_services_list=0x7f06000a;
         public static final int gl=0x7f060001;
-        public static final int heartBuddy=0x7f06000a;
+        public static final int heartBuddy=0x7f06000b;
         public static final int heartRate=0x7f060002;
-        public static final int heartrate_value=0x7f060008;
-        public static final int loadBpm=0x7f060004;
-        public static final int menu_connect=0x7f060015;
-        public static final int menu_disconnect=0x7f060016;
-        public static final int menu_refresh=0x7f060012;
-        public static final int menu_scan=0x7f060013;
-        public static final int menu_stop=0x7f060014;
-        public static final int modes=0x7f06000c;
-        public static final int name=0x7f06000d;
-        public static final int seek=0x7f06000f;
+        public static final int heartrate_value=0x7f060009;
+        public static final int loadBpm=0x7f060005;
+        public static final int menu_connect=0x7f060016;
+        public static final int menu_disconnect=0x7f060017;
+        public static final int menu_refresh=0x7f060013;
+        public static final int menu_scan=0x7f060014;
+        public static final int menu_stop=0x7f060015;
+        public static final int modes=0x7f06000d;
+        public static final int name=0x7f06000e;
+        public static final int seek=0x7f060010;
+        public static final int status=0x7f060004;
         public static final int text=0x7f060000;
         public static final int textView=0x7f060003;
-        public static final int uuid=0x7f06000e;
+        public static final int uuid=0x7f06000f;
     }
     public static final class layout {
         public static final int actionbar_indeterminate_progress=0x7f030000;
