@@ -62,12 +62,17 @@ public class DemoHeartRateSensorActivity extends DemoSensorActivity {
 
             String bpm = values[0] +"";
             System.out.println("\n********BPM: " + values[0]);
-
+            System.out.println("\nBPM IN DOUBLE FORM: "+ Double.parseDouble(bpm) + "\n");
+            int intBpm = (int) Double.parseDouble(bpm);
+            //if(Integer.parseInt(bpm))
+            if(intBpm > 70){
+                //send notification
+            }
 			renderer.setInterval(values); //set new data
 			view.requestRender();
 
             //DATA_AS_STRING is "heart rate=74.0"
-			viewText.setText(bpm);
+			viewText.setText(intBpm+"");
 
 		}
 	}

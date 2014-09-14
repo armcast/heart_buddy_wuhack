@@ -33,6 +33,7 @@ limitations under the License.
                  android:icon="@drawable/ic_launcher"
                  android:debuggable="true"
                   android:theme="@android:style/Theme.Holo.Light"
+
                  >
         <activity android:name="com.sample.hrv.DeviceScanActivity"
                   android:label="@string/app_name">
