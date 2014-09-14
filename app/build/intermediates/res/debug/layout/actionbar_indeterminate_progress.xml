@@ -22,5 +22,6 @@
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_gravity="center"/>
+
 </FrameLayout>
 <!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/actionbar_indeterminate_progress.xml -->

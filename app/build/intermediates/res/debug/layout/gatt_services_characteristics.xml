@@ -18,55 +18,66 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="10dp">
+        android:paddingTop="50dp"
+        android:background="#ff6d6d"
+        android:id="@+id/loadBpm">
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+            android:paddingRight="10dp"
+            android:visibility="gone">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_device_address"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+
         <TextView
                 android:id="@+id/device_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:textAppearanceMedium"/>
+                android:textAppearance="?android:textAppearanceMedium"
+                android:visibility="gone"/>
     </LinearLayout>
    <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+            android:paddingRight="10dp"
+            android:visibility="gone">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:text="@string/label_state"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
         <TextView
                 android:id="@+id/connection_state"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:textAppearanceMedium"/>
+                android:textAppearance="?android:textAppearanceMedium"
+                android:visibility="gone"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+            android:paddingRight="10dp"
+            android:visibility="gone">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:text="@string/label_data"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
         <TextView
                 android:id="@+id/data_value"
                 android:layout_width="match_parent"
@@ -80,35 +91,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+            android:paddingRight="10dp"
+            android:visibility="gone">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:text="@string/label_heartrate"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
         <TextView
                 android:id="@+id/heartrate_value"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:text="@string/no_data"
-                android:minLines="1"/>
+                android:minLines="1"
+                    />
      </LinearLayout>
      <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp">
-        <Button
-            android:id="@+id/demo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_demo"
-            android:clickable="false"
-            android:focusable="false" />
-     </LinearLayout>
+            android:paddingRight="10dp"></LinearLayout>
      <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,10 +125,40 @@
             android:paddingRight="10dp"
             android:textStyle="bold"
             android:textAppearance="?android:textAppearanceMedium"
-            android:background="@android:drawable/divider_horizontal_bright" />
+            android:background="@android:drawable/divider_horizontal_bright"
+            android:visibility="gone"/>
     <ExpandableListView
             android:id="@+id/gatt_services_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:groupIndicator="@null"/> 
+            android:groupIndicator="@null"
+            android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome to"
+        android:id="@+id/welcomeText"
+        android:textSize="40dp"
+        android:paddingLeft="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heartBuddy"
+        android:src="@drawable/heart_buddy"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="90dp" />
+
+    <Button
+        android:id="@+id/demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start!"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="visible"
+        android:layout_gravity="right" />
+
 </LinearLayout><!-- From: file:/Users/armcast/AndroidstudioProjects/heart_buddy_wuhack/app/src/main/res/layout/gatt_services_characteristics.xml -->

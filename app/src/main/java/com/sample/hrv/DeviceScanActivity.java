@@ -26,6 +26,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,6 +37,7 @@ import com.sample.hrv.R;
 import com.sample.hrv.adapters.BleDevicesAdapter;
 
 /**
+ * First page: click on device.
  * Activity for scanning and displaying available Bluetooth LE devices.
  */
 public class DeviceScanActivity extends ListActivity {
@@ -72,6 +74,16 @@ public class DeviceScanActivity extends ListActivity {
             finish();
             return;
         }
+        
+//        new Handler().postDelayed(new Runnable() {
+//            public void run() {
+//                Intent intent = new Intent();
+//                Intent intent = intent.setClass(Splash.this, MyMainActivity.class);
+//                Splash.this.startActivity(intent);
+//                Splash.this.finish();
+//            }
+//
+//        }, 3000);
     }
 
     @Override

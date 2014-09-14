@@ -39,5 +39,15 @@
         android:layout_below="@+id/name"
         android:visibility="gone" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="listitem_characteristics"
+        android:id="@+id/textView"
+        android:layout_marginTop="382dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/seek" />
+
 
 </RelativeLayout>
